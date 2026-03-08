@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 优化标题，突出品牌 -->
+    <title>Marlokids - 高端童装品牌官网（中文）</title>
+    <style>
+        /* 基础样式，适配手机+电脑 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: "Microsoft Yahei", Arial; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.8; /* 全局行高，阅读更舒适 */
+            color: #333; /* 正文默认颜色，更柔和 */
+        }
+        /* 语言切换按钮 */
+        .lang-switch { text-align: right; margin-bottom: 20px; }
+        .lang-btn { 
+            padding: 8px 15px; 
+            background: #e86898; /* 粉色系，贴合童装品牌 */
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .lang-btn:hover { background: #d65888; } /* hover深色，交互更友好 */
+        /* 头部样式 */
+        .header { text-align: center; margin: 30px 0 50px; }
+        .header img { 
+            width: 200px; 
+            height: auto; 
+            margin-bottom: 15px; /* Logo和标题间距 */
+        }
+        .header h1 { 
+            color: #e86898; /* 品牌色突出标题 */
+            font-size: 32px;
+            font-weight: 600;
+        }
+        /* 内容样式 */
+        .content { margin: 40px 0; }
+        .content h2 { 
+            margin: 30px 0 15px; /* 标题上下间距优化 */
+            color: #e86898; /* 品牌色统一标题 */
+            font-size: 24px;
+            border-bottom: 1px solid #f5f5f5; /* 标题下划线，更精致 */
+            padding-bottom: 8px;
+        }
+        .content p { 
+            line-height: 1.8; 
+            color: #666; 
+            margin-bottom: 10px; /* 段落间距优化 */
+            font-size: 16px;
+        }
+        /* 链接样式 */
+        .content a { 
+            color: #e86898; 
+            text-decoration: none;
+        }
+        .content a:hover { text-decoration: underline; }
+        /* 视频样式 */
+        .video-box { margin: 60px 0 40px; text-align: center; }
+        .video-box h2 { 
+            color: #e86898;
+            margin-bottom: 20px;
+        }
+        .video-box video { 
+            width: 100%; 
+            max-width: 800px; 
+            border-radius: 8px; 
+            border: none; /* 去除默认边框 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 语言切换按钮：跳转到英文页 -->
+    <div class="lang-switch">
+        <a href="en.html" class="lang-btn">English / 英文</a>
+    </div>
+
+    <!-- 头部：logo/图片 -->
+    <div class="header">
+        <img src="assets/bg.png" alt="Marlokids品牌Logo"> <!-- 修复alt属性，描述内容 -->
+        <h1>Marlokids 高端童装品牌</h1> <!-- 补充h1内容，SEO+视觉更优 -->
+    </div>
+
+    <!-- 正文内容 -->
+    <div class="content">
+        <h2>我们的故事</h2>
+        <p>具体了解画册，或服装配饰，可访问官网：<a href="https://www.marlokids.com" target="_blank">www.marlokids.com</a>，或 <a href="https://www.marlokids.shop" target="_blank">www.marlokids.shop</a></p>
+
+        <h2>我们的愿景</h2>
+        <p>我们认为，这些发自内心深处的对于美和爱的理解，她所能展现的意义，在于创造出无限的美好，然后带给孩子无限的自信和欢乐。</p>
+        <p>我们担此使命，必将不负于此。</p>
+
+        <h2>我们在做什么</h2>
+        <p>从2014年开始，我们一直致力于设计各类惊艳优雅轻奢的童装时装和配饰，甑选各类重工高端和奇妙的布料，注重和落实一针一线的精细做工品质。</p>
+        <p>我们未曾偏离，也将秉承信念，长期专注于此。</p>
+
+        <h2>我们在哪</h2>
+        <p>我们的总部位于澳大利亚悉尼，产品供应链办事处设中国嘉兴。</p>
+
+        <h2>加入我们</h2>
+        <p>如果你认同品牌理念，认同品质即生命，欢迎加入我们的供应链团队。</p>
+        <p>欢迎各面辅料供应商和服装制造商，联系我们：<a href="mailto:hawking@marlokids.com.cn">hawking@marlokids.com.cn</a></p>
+
+        <h2>感谢你的访问</h2>
+        <p>感谢你对Marlokids的关注，我们将持续为孩子打造高品质的童装产品。</p>
+    </div>
+
+    <!-- 视频播放 -->
+    <div class="video-box">
+        <h2>宣传视频</h2>
+        <!-- 修复type属性为正确的video/mp4，视频可正常播放 -->
+        <video controls poster="assets/logo.png">
+            <source src="assets/intro.mp4" type="video/mp4">
+            你的浏览器不支持视频播放，请更换浏览器（推荐Chrome/Edge）。
+        </video>
+    </div>
+</body>
+</html>
